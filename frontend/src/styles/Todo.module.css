@@ -1,0 +1,12 @@
+.todoCard {
+  background-color: #FFFFFF;
+  height: 200px;
+}
+
+.menu {
+  width: 100px;
+}
+
+.cardText {
+  white-space: pre-line;
+}

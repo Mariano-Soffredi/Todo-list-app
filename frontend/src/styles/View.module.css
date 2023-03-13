@@ -1,0 +1,44 @@
+.newTask {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
+
+.viewContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 800px;
+  width: 50rem;
+}
+
+.checkBox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.task {
+  display: flex;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.options {
+  position: relative;
+  justify-self: right;
+  padding-top: 0 !important;
+}
+
+.dots {
+  margin-top: 0;
+  font-size: 24px;
+}
